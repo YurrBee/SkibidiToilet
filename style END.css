@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 1000px;
+  background-image: url("https://i.postimg.cc/GmvQRYhS/7fa6e94ad1216e50231b77dc1bb53ad8.jpg");
+  background-position: center center;
+}
+button{
+  position: relative;
+  bottom: 300px;
+  right: 400px;
+  padding: 15px;
+  border-radius: 50px;
+  background-color: gray;
+  z-index: 100;
+}
+.paper{
+  background-image: url("https://i.postimg.cc/RZwYHxZG/2e261cc404efdf7a1cd29f5e0192eef9.jpg");
+  padding: 20px 100px;
+  background-size: 400px;
+  border: 3px solid silver;
+  border-radius: 50px;
+  position: absolute;
+}
+p{
+  font-family: "Schoolbell", cursive;
+  font-size: 25px;
+}
+.open{
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn a {
+  text-decoration: none;
+  color: #000000;
+  background: rgb(255, 179, 186);
+  padding: 10px 25px;
+  border-radius: 8px;
+  box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3);
+}
+.rainbow-text {
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 2em;
+  }
